@@ -1,0 +1,14 @@
+{
+    "name": "insectaio/common",
+    "description": "Shared protocol buffer types used by insectaio SDKs",
+    "autoload": {
+      "psr-4": {
+        "Insecta\\Common\\": "generated/common_php/Insecta/Common/",
+        "GPBMetadata\\": "generated/common_php/GPBMetadata/"
+      }
+    },
+    "require": {
+      "grpc/grpc": "^1.57",
+      "google/protobuf": "^4.31"
+    }
+  }
