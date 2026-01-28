@@ -1,11 +1,16 @@
 # insectaio/common
 
+[![Latest Version](https://img.shields.io/packagist/v/insectaio/common.svg)](https://packagist.org/packages/insectaio/common)
+[![Total Downloads](https://img.shields.io/packagist/dt/insectaio/common.svg)](https://packagist.org/packages/insectaio/common)
+
 Protocol Buffers (Protobuf) shared types used across insectaio gRPC SDKs, including money and metadata types.
+
+**Latest version: v1.0.1**
 
 ## Installation
 
 ```bash
-composer require insectaio/common
+composer require insectaio/common:^1.0
 ```
 
 ## Usage
